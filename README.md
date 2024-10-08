@@ -109,8 +109,12 @@ git checkout -b feature-name
 
 **TogglesAndSwitches: Contains toggle and switch components, separated into css and html files.**
 
+- IOS: Ios theme toggle.
+- nightmode: Night mode toggle
+- power: On Off Switch
 
-📝 License
+
+# 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 

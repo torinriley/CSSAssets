@@ -27,7 +27,93 @@ git checkout -b feature-name
 ```
 
 
-📝 License
+# Repository Map 🗺️
+
+## File Structure
+
+```bash
+
+├── buttons
+│   ├── css
+│   └── html
+├── footer
+│   └── basic
+│       ├── basic.css
+│       └── basic.html
+├── forms
+│   ├── basic
+│   ├── progressForm
+│   └── uploadForm
+├── loading
+│   ├── loading
+│   ├── loadingDots
+│   └── skeletonLoading
+├── nav
+│   ├── basic
+│   ├── dropdown
+│   ├── glass
+│   └── oval
+├── other
+│   ├── 3Dcube
+│   ├── cardFlip
+│   ├── darkMode
+│   ├── formLabels
+│   ├── grid
+│   ├── neumorphism
+│   ├── search
+│   └── stars
+├── TogglesAndSwitches
+│   ├── css
+│   └── html
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+
+### Folders and Descriptions:
+
+- buttons: Contains reusable button components with separate folders for css and html files.
+- footer/basic: Holds a simple footer component with basic.css and basic.html files, which showcase a minimalistic footer design.
+
+**forms:**
+
+- basic: Contains basic form components.
+- progressForm: Holds a form with progress indicators (e.g., multi-step forms).
+- uploadForm: Includes a file upload form with drag-and-drop support.
+
+**loading:**
+
+- loading: Basic loading animations.
+- loadingDots: Loading animations using dot indicators.
+- skeletonLoading: Skeleton loading animations, ideal for loading states.
+
+**nav:**
+
+- basic: Simple navigation bar designs.
+- dropdown: Navigation bars with dropdown functionality.
+- glass: Glassmorphism-styled navigation bars.
+- oval: Rounded, oval-shaped navigation bars.
+
+ **other: Contains various experimental or unique CSS components:**
+
+- 3Dcube: 3D cube animation using CSS transforms.
+- cardFlip: CSS card flip animation effects for interactive cards.
+- darkMode: Dark mode toggle feature for webpages.
+- formLabels: Custom form label designs and animations.
+- grid: CSS grid layout examples and templates.
+- neumorphism: Neumorphism-styled components (soft, raised effect).
+- search: Custom search bar components.
+- stars: Star rating system.
+
+**TogglesAndSwitches: Contains toggle and switch components, separated into css and html files.**
+
+- IOS: Ios theme toggle.
+- nightmode: Night mode toggle
+- power: On Off Switch
+
+
+# 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 

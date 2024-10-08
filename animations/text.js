@@ -2,7 +2,7 @@ const scrambleText = (element, text) => {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+=-[]{}|;:",.<>?/`~';
     let iterations = 0;
 
-    
+    // Initially fill the text element with random characters to start fully scrambled
     element.innerText = text
         .split('')
         .map(() => characters[Math.floor(Math.random() * characters.length)])

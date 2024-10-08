@@ -13,22 +13,22 @@ const scrambleText = (element, text) => {
             .split('')
             .map((char, index) => {
                 if (index < iterations) {
-
+                    return char;  // Show the correct character after a certain iteration
                 }
-               
+                // Keep scrambling the rest of the characters
                 return characters[Math.floor(Math.random() * characters.length)];
             })
             .join('');
 
-        
+        // Increment until all characters are revealed
         if (iterations >= text.length) {
-            clearInterval(interval);  
+            clearInterval(interval);  // Stop the interval when all text is revealed
         }
-        iterations += 1 / 3; 
-    }, 50);  
+        iterations += 1 / 3;  // Adjust this speed for faster/slower reveal
+    }, 50);  // Interval for each frame
 };
 
-
-const targetText = 'Decrypting...'; 
+// Usage
+const targetText = 'Decrypting...';  // The final text to be unscrambled
 const textElement = document.getElementById('scramble-text');
 scrambleText(textElement, targetText);

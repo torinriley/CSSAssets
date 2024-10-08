@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    padding: 20px;
+    background-color: #333333;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: width 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+}
+
+body.dark-mode .card {
+    background-color: #bb86fc;
+}
+
+.card.active {
+    width: 300px;
+    height: 300px;
+}

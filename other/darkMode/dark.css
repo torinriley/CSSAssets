@@ -1,0 +1,61 @@
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #3498db;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(26px);
+  }

@@ -1,0 +1,20 @@
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+  }
+  
+  .grid-item {
+    background-color: #3498db;
+    padding: 30px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  

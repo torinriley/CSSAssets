@@ -1,0 +1,47 @@
+
+.power-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .power-toggle input {
+    display: none;
+  }
+  
+  
+  .power-button {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e74c3c; 
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+  .power-button:before {
+    content: 'OFF';
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: white;
+    transition: color 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input:checked + .power-button {
+    background-color: #2ecc71; 
+  }
+  
+  input:checked + .power-button:before {
+    content: 'ON';
+    left: 35px;
+  }
+
+

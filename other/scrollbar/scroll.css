@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #000000; 
+    color: #FFFFFF; 
+}
+
+#progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #FFFFFF; 
+    width: 0%;
+    z-index: 100;
+}
+
+.content {
+    height: 2000px;
+    padding: 20px;
+}

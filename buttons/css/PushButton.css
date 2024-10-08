@@ -1,0 +1,18 @@
+.push-button {
+    background: #4caf50;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 0 5px #3e8e41;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .push-button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  

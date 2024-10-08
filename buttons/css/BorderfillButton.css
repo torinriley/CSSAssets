@@ -1,0 +1,17 @@
+.border-fill-button {
+    background: transparent;
+    border: 2px solid #3498db;
+    color: #3498db;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  
+  .border-fill-button:hover {
+    background: #3498db;
+    color: white;
+  }
+  

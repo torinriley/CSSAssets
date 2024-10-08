@@ -1,0 +1,18 @@
+.search-container {
+    position: relative;
+    width: 200px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    outline: none;
+    font-size: 16px;
+    transition: width 0.4s ease;
+  }
+  
+  .search-bar:focus {
+    width: 300px;
+  }

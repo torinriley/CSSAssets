@@ -1,0 +1,35 @@
+.skeleton-loader {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 33.33vw;
+    margin: 0 auto; 
+}
+
+.skeleton-box {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    animation: skeleton-animation 1.5s infinite ease-in-out;
+}
+
+.skeleton-box-large {
+    width: 100%;
+    height: 70px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    animation: skeleton-animation 1.5s infinite ease-in-out;
+}
+
+@keyframes skeleton-animation {
+    0% {
+        background-color: #e0e0e0;
+    }
+    50% {
+        background-color: #f0f0f0;
+    }
+    100% {
+        background-color: #e0e0e0;
+    }
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.split {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: flex 0.5s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.left {
+    background-color: #1e1e1e;
+}
+
+.right {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.split:hover {
+    flex: 3;
+}
+
+h2 {
+    font-size: 40px;
+    color: #e0e0e0;
+    transition: transform 0.5s ease;
+}
+
+.left:hover h2, .right:hover h2 {
+    transform: scale(1.1);
+}

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.drawer-menu {
+    position: relative;
+}
+
+.menu-trigger {
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.drawer {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: left 0.4s ease;
+}
+
+.drawer a {
+    color: white;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.drawer-menu.open .drawer {
+    left: 0;
+}

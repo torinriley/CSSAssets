@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.sliding-nav {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.sliding-nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.sliding-nav a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.sliding-nav a:hover::before {
+    width: 100%;
+}

@@ -5,13 +5,12 @@ Welcome to my public assets repository! This repository contains a collection of
 
 🔥 Features
 
-•	CSS Buttons: Stylish and responsive buttons with hover effects, animations, and 3D designs.
-•	Toggle Switches: A variety of toggle switches, from iOS-style toggles to custom emoji and power switches.
-•	Navigation Bars: Beautiful pill-shaped, animated, and responsive navigation bars.
-•	Parallax Scrolling: Smooth parallax scrolling backgrounds for a modern look.
-•	Loaders: Animated loaders for indicating data load times.
-•	Neumorphism Designs: Soft, raised components using the neumorphism design trend.
-
+-	CSS Buttons: Stylish and responsive buttons with hover effects, animations, and 3D designs.
+-	Toggle Switches: A variety of toggle switches, from iOS-style toggles to custom emoji and power switches.
+-	Navigation Bars: Beautiful pill-shaped, animated, and responsive navigation bars.
+-	Loaders: Animated loaders for indicating data load times.
+- 	Neumorphism Designs: Soft, raised components using the neumorphism design trend.
+- And More
 
 🌟 Contribution
 

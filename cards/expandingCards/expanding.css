@@ -22,7 +22,7 @@ body.dark-mode {
     width: 150px;
     height: 200px;
     padding: 20px;
-    background-color: #333333; /* Changed to dark color */
+    background-color: #333333;
     color: white;
     border-radius: 10px;
     cursor: pointer;
